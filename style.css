@@ -1,0 +1,195 @@
+body {
+    background-color: #3848fc;
+    text-align: center;
+    background: linear-gradient(9deg, rgba(196,45,97,1) 1%, rgba(139,85,51,1) 23%, rgba(88,121,9,0.7793242296918768) 43%, rgba(72,137,52,1) 53%, rgba(60,150,86,1) 61%, rgba(32,178,164,1) 79%, rgba(21,189,194,1) 86%, rgba(0,212,255,1) 100%);
+}
+
+.card {
+    width: 20%;
+    background-color: #94bbf7;
+    text-align: center;
+    display: inline-block;
+    height: 350px;
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+     
+}
+
+img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card img {
+    margin: auto;
+}
+
+.button {
+    background-color:  #ffffff;
+    text-decoration: none;
+    color: #524f4e;
+    border-radius: 45px;
+    display: inline-block;
+    width: 40%;
+    font-size: 14px;
+    
+}
+
+.tarifs {
+    margin-top: 100px;
+    font-size: 30px;
+    color: black;
+}
+
+.image1 {
+    height: 120px;
+    margin-top: 10px
+}
+
+h1 {
+    text-align: center;
+    background-color: #524f4e;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+.logo {
+    width: 120px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.menuitem {
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding-left: 20px;
+    display: inline-block;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px 1px;
+    
+
+}
+
+.menu {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+   
+   
+}
+
+table {
+    width: 80%;
+    margin:50px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+td {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed gray;
+    border-right: 1px dashed gray ;
+    border-left:1px dashed gray ;
+}
+
+
+th {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+
+
+}
+
+.basic {
+    background-color:#F5A9E2;
+}
+
+.pro {
+    background-color: #E5AFF5;
+}
+
+.proo {
+    background-color:#D5BBF5 ;
+}
+
+.prooo {
+    background-color: #F5CBC2;
+}
+
+.prix {
+  
+   box-shadow: 1px 4px 8px gray;
+   border-radius: 3px;
+   padding: 15px;
+   margin: 0 auto;
+   background-color: #ffffff;
+}
+
+.prix-container {
+    background-color: #E5AFF5;
+}
+
+.tarif_caption img {
+    width:70px;
+    height: 70px;
+    display: flex;
+  
+}
+
+.tarif_caption {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+    margin-bottom: 20px;
+
+}
+
+.tarif_caption p {
+    font-size: 45px;
+    color: black;
+    text-shadow: 10px -10px 10px black;
+    display: flex;
+}
+
+.prix-button {
+    display: inline-block;
+    border: 1px solid black ;
+    text-decoration: none;
+    color:white;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 45px;
+    padding:20px 5px;  
+    margin: 20px;  
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 3px 4px grey;
+}
+
