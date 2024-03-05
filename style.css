@@ -51,11 +51,15 @@ img {
 }
 
 h1 {
-    text-align: center;
+   /* text-align: center;
     background-color: #524f4e;
     width: fit-content;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
+    animation: slideln 1s ease-in;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: white;
 }
 
 h2 {
@@ -124,8 +128,6 @@ th {
     padding-bottom: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
-
-
 }
 
 .basic {
@@ -193,3 +195,16 @@ th {
     box-shadow: 1px 3px 4px grey;
 }
 
+@keyframes slideln{
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+{
+    100% {
+        transform:translateX(0);
+        opacity: 1;
+    }
+}
