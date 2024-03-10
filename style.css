@@ -9,7 +9,8 @@ body {
     background-color: #94bbf7;
     text-align: center;
     display: inline-block;
-    height: 350px;
+    height: auto;
+    min-height: 400px;
     vertical-align: top;
     border: 1px solid black;
     border-radius: 5px;
@@ -26,6 +27,8 @@ img {
 
 .card img {
     margin: auto;
+    height: 150px;
+    width: 100%;
 }
 
 .button {
@@ -195,16 +198,26 @@ th {
     box-shadow: 1px 3px 4px grey;
 }
 
+.card p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 @keyframes slideln{
     0% {
         transform: translateX(-100%);
         opacity: 0;
     }
-}
 
-{
+
     100% {
         transform:translateX(0);
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 80%;
     }
 }
